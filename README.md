@@ -51,4 +51,20 @@ Here is a testcase showing mechanize using a Google JSON web service:
 
 =========
 
+if you are using Android you must include jsoup and css-selectors 
+
+```gradle
+	repositories {
+	    maven {
+	        url "http://mvnrepository.com"
+	    }
+	}
+	
+	dependencies {
+	    .....
+	    compile 'org.jsoup:jsoup:1.7.2'
+	    compile 'se.fishtank:css-selectors:1.0.4'
+	}
+```
+
 Include this library (or download) from the Maven repository: http://search.maven.org/#browse%7C687823805
